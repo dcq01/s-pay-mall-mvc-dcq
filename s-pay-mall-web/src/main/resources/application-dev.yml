@@ -12,6 +12,9 @@ weixin:
   config:
     originalid: gh_2b28b39f45f4
     token: ae86
+    app-id: wxb0cd4b5794a305af
+    app-secret: e48e167619c552f8b1d94b785d6bed0b
+    template_id: 6-AT74rNA_P9suOwv10aQvYxOTfE1K8K0h7CbWpdWx4
 
 #spring:
 #  datasource:
