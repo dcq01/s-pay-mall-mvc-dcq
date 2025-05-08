@@ -1,0 +1,49 @@
+25-05-07.20:50:17.279 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 32396 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-07.20:50:17.280 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-07.20:50:17.579 [main            ] WARN  ClassPathMapperScanner - No MyBatis mapper was found in '[org.example]' package. Please check your configuration.
+25-05-07.20:50:17.752 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-07.20:50:17.756 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-07.20:50:17.757 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-07.20:50:17.757 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-07.20:50:17.822 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-07.20:50:17.822 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 522 ms
+25-05-07.20:50:17.950 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is org.springframework.boot.autoconfigure.jdbc.DataSourceProperties$DataSourceBeanCreationException: Failed to determine a suitable driver class
+25-05-07.20:50:17.951 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+25-05-07.20:50:17.957 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+25-05-07.20:50:17.967 [main            ] ERROR LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+25-05-07.20:54:06.884 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 28008 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-07.20:54:06.885 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-07.20:54:07.229 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-07.20:54:07.233 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-07.20:54:07.233 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-07.20:54:07.233 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-07.20:54:07.297 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-07.20:54:07.297 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 396 ms
+25-05-07.20:54:07.478 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-07.20:54:07.486 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-07.20:54:07.490 [main            ] INFO  Application            - Started Application in 0.809 seconds (JVM running for 1.296)
+25-05-07.21:09:43.506 [http-nio-8080-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-07.21:09:43.506 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-07.21:09:43.507 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-07.21:09:43.520 [http-nio-8080-exec-1] INFO  WeixinPortalController - 微信公众号验签信息开始 [b51dd3bfa5d67834893b9dfd23b1a5958b1f08b9, 1746623383, 2071753170, 6271980180554350519]
+25-05-07.21:09:43.523 [http-nio-8080-exec-1] INFO  WeixinPortalController - 微信公众号验签信息完成 check：true
