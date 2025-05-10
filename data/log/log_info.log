@@ -164,3 +164,126 @@ version             : 1.4.10
 <Status><![CDATA[success]]></Status>
 </xml>
 25-05-10.13:12:03.811 [http-nio-8080-exec-6] INFO  LoginController        - 扫码检测登录结果 ticket:gQGq8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyRktjZE5KYmplVkoxazlKNnhFMVgAAgQJ4B5oAwQAjScA openidToken:oC9O57RFB4BQaXgMP7nmQXejGB5M
+25-05-10.16:02:20.888 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 30424 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.16:02:20.890 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.16:02:21.315 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.16:02:21.318 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.16:02:21.318 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.16:02:21.318 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.16:02:21.379 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.16:02:21.379 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 475 ms
+25-05-10.16:02:21.935 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.16:02:21.942 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.16:02:21.947 [main            ] INFO  Application            - Started Application in 1.263 seconds (JVM running for 1.749)
+25-05-10.16:04:09.984 [http-nio-8080-exec-6] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.16:04:09.984 [http-nio-8080-exec-6] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.16:04:09.985 [http-nio-8080-exec-6] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-10.16:04:10.000 [http-nio-8080-exec-6] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.example.common.response.Response<java.lang.String> org.example.controller.AliPayController.createPayOrder(org.example.controller.dto.CreatePayRequestDTO)]
+25-05-10.16:06:04.283 [http-nio-8080-exec-4] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]
+25-05-10.16:07:17.683 [http-nio-8080-exec-5] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:07:17.697 [http-nio-8080-exec-5] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.16:07:17.783 [http-nio-8080-exec-5] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.16:07:17.809 [http-nio-8080-exec-5] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:1989324248536101
+25-05-10.16:08:57.728 [http-nio-8080-exec-10] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:08:57.732 [http-nio-8080-exec-10] INFO  OrderServiceImpl       - 创建订单-存在，存在未创建支付单订单，创建支付单开始 userId:10001 productId:100001 orderId:1989324248536101
+25-05-10.16:08:57.789 [http-nio-8080-exec-10] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:1989324248536101
+25-05-10.16:09:50.472 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:09:50.487 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:52.796 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:09:52.798 [http-nio-8080-exec-6] INFO  OrderServiceImpl       - 创建订单-存在，存在未创建支付单订单，创建支付单开始 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:52.810 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:55.337 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:09:55.338 [http-nio-8080-exec-9] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:55.338 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:57.601 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:09:57.603 [http-nio-8080-exec-4] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:09:57.603 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:10:07.263 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:10:07.265 [http-nio-8080-exec-2] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:10:07.265 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:2512670680310308
+25-05-10.16:13:01.538 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:13:01.546 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:16:56.746 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:16:56.749 [http-nio-8080-exec-1] INFO  OrderServiceImpl       - 创建订单-存在，存在未创建支付单订单，创建支付单开始 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:16:56.769 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:06.199 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:17:06.202 [http-nio-8080-exec-6] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:06.202 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:09.846 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:17:09.847 [http-nio-8080-exec-9] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:09.847 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:16.971 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:17:16.972 [http-nio-8080-exec-4] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:17:16.972 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:21.733 [http-nio-8080-exec-5] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:21.735 [http-nio-8080-exec-5] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:21.735 [http-nio-8080-exec-5] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:22.627 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:22.629 [http-nio-8080-exec-7] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:22.629 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:23.446 [http-nio-8080-exec-3] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:23.448 [http-nio-8080-exec-3] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:23.448 [http-nio-8080-exec-3] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:23.949 [http-nio-8080-exec-10] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:23.950 [http-nio-8080-exec-10] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:23.950 [http-nio-8080-exec-10] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:24.505 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:24.508 [http-nio-8080-exec-1] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:24.508 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:25.097 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:25.099 [http-nio-8080-exec-6] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:25.099 [http-nio-8080-exec-6] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:25.634 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:25.637 [http-nio-8080-exec-9] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:25.637 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:26.227 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:26.228 [http-nio-8080-exec-4] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:26.228 [http-nio-8080-exec-4] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:26.663 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:26.665 [http-nio-8080-exec-2] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:26.665 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:27.255 [http-nio-8080-exec-8] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:22:27.256 [http-nio-8080-exec-8] INFO  OrderServiceImpl       - 创建订单-存在，已存在未支付订单。userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:22:27.256 [http-nio-8080-exec-8] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:6529095972807128
+25-05-10.16:24:43.960 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.16:24:43.964 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.16:24:47.911 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 25956 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.16:24:47.912 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.16:24:48.352 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.16:24:48.355 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.16:24:48.357 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.16:24:48.357 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.16:24:48.420 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.16:24:48.421 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 490 ms
+25-05-10.16:24:49.034 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.16:24:49.042 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.16:24:49.047 [main            ] INFO  Application            - Started Application in 1.359 seconds (JVM running for 1.848)
+25-05-10.16:24:58.365 [http-nio-8080-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.16:24:58.365 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.16:24:58.367 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Completed initialization in 2 ms
+25-05-10.16:24:58.405 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:24:58.415 [http-nio-8080-exec-1] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.16:24:58.521 [http-nio-8080-exec-1] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.16:24:58.607 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:8990816926331389
+25-05-10.16:25:38.623 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.16:25:38.626 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.16:25:41.874 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 30384 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.16:25:41.875 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.16:25:42.304 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.16:25:42.308 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.16:25:42.308 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.16:25:42.308 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.16:25:42.368 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.16:25:42.368 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 476 ms
+25-05-10.16:25:42.934 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.16:25:42.942 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.16:25:42.947 [main            ] INFO  Application            - Started Application in 1.305 seconds (JVM running for 1.823)
+25-05-10.16:25:52.055 [http-nio-8080-exec-7] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.16:25:52.055 [http-nio-8080-exec-7] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.16:25:52.056 [http-nio-8080-exec-7] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-10.16:25:52.095 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.16:25:52.104 [http-nio-8080-exec-7] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.16:25:52.203 [http-nio-8080-exec-7] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.16:25:52.294 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:7327583494244209
+25-05-10.16:27:57.222 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.16:27:57.227 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

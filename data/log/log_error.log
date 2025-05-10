@@ -78,3 +78,5 @@ version             : 1.4.10
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
 	at java.lang.Thread.run(Thread.java:748)
+25-05-10.16:04:10.000 [http-nio-8080-exec-6] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public org.example.common.response.Response<java.lang.String> org.example.controller.AliPayController.createPayOrder(org.example.controller.dto.CreatePayRequestDTO)]
+25-05-10.16:06:04.283 [http-nio-8080-exec-4] WARN  DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'text/plain;charset=UTF-8' not supported]

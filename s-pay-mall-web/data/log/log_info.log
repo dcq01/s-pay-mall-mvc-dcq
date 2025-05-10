@@ -1,0 +1,18 @@
+25-05-10.14:17:56.357 [main            ] INFO  OrderServiceTest       - Starting OrderServiceTest using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 24240 (started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web)
+25-05-10.14:17:56.358 [main            ] INFO  OrderServiceTest       - The following 1 profile is active: "dev"
+25-05-10.14:17:58.309 [main            ] INFO  OrderServiceTest       - Started OrderServiceTest in 2.165 seconds (JVM running for 2.736)
+25-05-10.14:17:58.472 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.14:17:58.627 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.14:17:58.764 [main            ] INFO  OrderServiceTest       - 请求参数:{"productId":"10001","userId":"xiaofuge"}
+25-05-10.14:17:58.766 [main            ] INFO  OrderServiceTest       - 测试结果:{"orderId":"8827095466252673","payUrl":"暂无"}
+25-05-10.14:17:58.771 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.14:17:58.773 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.14:18:13.270 [main            ] INFO  OrderServiceTest       - Starting OrderServiceTest using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 21484 (started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web)
+25-05-10.14:18:13.271 [main            ] INFO  OrderServiceTest       - The following 1 profile is active: "dev"
+25-05-10.14:18:15.233 [main            ] INFO  OrderServiceTest       - Started OrderServiceTest in 2.193 seconds (JVM running for 2.628)
+25-05-10.14:18:15.375 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.14:18:15.537 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.14:18:15.659 [main            ] INFO  OrderServiceTest       - 请求参数:{"productId":"10001","userId":"xiaofuge"}
+25-05-10.14:18:15.662 [main            ] INFO  OrderServiceTest       - 测试结果:{"orderId":"2638425802119443","payUrl":"暂无"}
+25-05-10.14:18:15.668 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.14:18:15.671 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
