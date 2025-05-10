@@ -318,3 +318,323 @@ version             : 1.4.10
 25-05-10.19:50:23.366 [http-nio-8080-exec-5] INFO  OrderPaySuccessListener - 收到支付成功消息，可以做接下来的事情，如；发货、充值、开户员、返利 {"orderId":"1744010827910238","status":"PAY_SUCCESS"}
 25-05-10.20:37:39.021 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 25-05-10.20:37:39.031 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.20:39:06.288 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 26864 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.20:39:06.289 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.20:39:06.773 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.20:39:06.777 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.20:39:06.777 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.20:39:06.778 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.20:39:06.844 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.20:39:06.844 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+25-05-10.20:39:07.502 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.20:39:07.511 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.20:39:07.517 [main            ] INFO  Application            - Started Application in 1.469 seconds (JVM running for 2.04)
+25-05-10.20:39:09.013 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:09.031 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.20:39:09.181 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.20:39:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:18.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:21.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:24.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:27.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:30.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:36.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:39.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:42.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:48.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:51.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:39:57.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:00.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:00.002 [scheduling-1    ] INFO  TimeoutCloseOrderJob   - 任务；超时30分钟订单关闭
+25-05-10.20:40:00.003 [scheduling-1    ] INFO  TimeoutCloseOrderJob   - 定时任务，超时30分钟订单关闭，暂无超时未支付订单 orderIds is null
+25-05-10.20:40:03.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:06.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:18.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:21.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:24.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:27.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:36.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:40:37.460 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.20:40:37.462 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.20:42:38.852 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 28664 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.20:42:38.855 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.20:42:39.340 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.20:42:39.344 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.20:42:39.344 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.20:42:39.344 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.20:42:39.410 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.20:42:39.410 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 529 ms
+25-05-10.20:42:40.082 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.20:42:40.091 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.20:42:40.098 [main            ] INFO  Application            - Started Application in 1.53 seconds (JVM running for 2.209)
+25-05-10.20:42:42.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:42:42.009 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.20:42:42.104 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.20:42:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:42:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:42:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:42:54.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:42:57.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:00.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:03.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:09.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:18.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:21.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:24.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:27.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:36.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:39.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:42.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:48.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:54.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:43:57.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:00.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:03.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:09.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:12.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:18.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:21.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:24.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:27.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:30.003 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:36.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:39.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:42.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:45.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:54.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:44:57.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:00.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:03.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:15.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:18.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:21.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:24.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:27.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:36.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:39.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:42.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:45.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:51.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:45:57.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:00.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:03.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:12.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:15.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:18.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:21.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:24.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:27.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:30.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:36.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:39.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:42.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:42.213 [http-nio-8080-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.20:46:42.213 [http-nio-8080-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.20:46:42.214 [http-nio-8080-exec-2] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-10.20:46:43.138 [http-nio-8080-exec-2] INFO  LoginController        - 生成微信扫码登录 ticket:gQGf8DwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyekJqNE5fYmplVkoxdVJuNjFFMTUAAgS1Sh9oAwQAjScA
+25-05-10.20:46:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:46:57.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:00.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:03.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:18.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:21.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:23.660 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.20:47:23.662 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.20:47:26.934 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 27468 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.20:47:26.935 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.20:47:27.419 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.20:47:27.424 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.20:47:27.424 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.20:47:27.424 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.20:47:27.491 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.20:47:27.491 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+25-05-10.20:47:28.161 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.20:47:28.170 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.20:47:28.177 [main            ] INFO  Application            - Started Application in 1.479 seconds (JVM running for 2.035)
+25-05-10.20:47:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:30.009 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.20:47:30.162 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.20:47:33.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:36.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:38.771 [http-nio-8080-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.20:47:38.771 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.20:47:38.772 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-10.20:47:39.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:39.394 [http-nio-8080-exec-1] INFO  LoginController        - 生成微信扫码登录 ticket:gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA
+25-05-10.20:47:42.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:42.505 [http-nio-8080-exec-3] INFO  LoginController        - 扫码检测登录结果 ticket:gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA openidToken:null
+25-05-10.20:47:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:45.486 [http-nio-8080-exec-2] INFO  LoginController        - 扫码检测登录结果 ticket:gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA openidToken:null
+25-05-10.20:47:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:48.466 [http-nio-8080-exec-4] INFO  LoginController        - 扫码检测登录结果 ticket:gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA openidToken:null
+25-05-10.20:47:50.259 [http-nio-8080-exec-5] INFO  WeixinPortalController - 接收微信公众号信息请求oC9O57RFB4BQaXgMP7nmQXejGB5M开始 <xml><ToUserName><![CDATA[gh_2b28b39f45f4]]></ToUserName>
+<FromUserName><![CDATA[oC9O57RFB4BQaXgMP7nmQXejGB5M]]></FromUserName>
+<CreateTime>1746881272</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA]]></Ticket>
+</xml>
+25-05-10.20:47:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:51.469 [http-nio-8080-exec-6] INFO  LoginController        - 扫码检测登录结果 ticket:gQHy7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyeWczOE16YmplVkoxdkpuNmhFMW8AAgTtSh9oAwQAjScA openidToken:oC9O57RFB4BQaXgMP7nmQXejGB5M
+25-05-10.20:47:51.655 [http-nio-8080-exec-8] INFO  WeixinPortalController - 接收微信公众号信息请求oC9O57RFB4BQaXgMP7nmQXejGB5M开始 <xml><ToUserName><![CDATA[gh_2b28b39f45f4]]></ToUserName>
+<FromUserName><![CDATA[oC9O57RFB4BQaXgMP7nmQXejGB5M]]></FromUserName>
+<CreateTime>1746881273</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>3981048840676933636</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+25-05-10.20:47:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:47:55.669 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:oC9O57RFB4BQaXgMP7nmQXejGB5M productId:oC9O57RFB4BQaXgMP7nmQXejGB5M
+25-05-10.20:47:55.822 [http-nio-8080-exec-1] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:oC9O57RFB4BQaXgMP7nmQXejGB5M productId:100010090091 orderId:7717622264829568
+25-05-10.20:47:57.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:00.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:03.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:06.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:12.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:15.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:18.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:20.577 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，消息接收 TRADE_SUCCESS
+25-05-10.20:48:20.579 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，交易名称: 测试商品
+25-05-10.20:48:20.579 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，交易状态: TRADE_SUCCESS
+25-05-10.20:48:20.579 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，支付宝交易凭证号: 2025051022001436290506197012
+25-05-10.20:48:20.579 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，商户订单号: 7717622264829568
+25-05-10.20:48:20.579 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，交易金额: 1.68
+25-05-10.20:48:20.580 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，买家在支付宝唯一id: 2088722067136291
+25-05-10.20:48:20.580 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，买家付款时间: 2025-05-10 20:48:20
+25-05-10.20:48:20.580 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，买家付款金额: 1.68
+25-05-10.20:48:20.580 [http-nio-8080-exec-3] INFO  AliPayController       - 支付回调，支付回调，更新订单 7717622264829568
+25-05-10.20:48:20.608 [http-nio-8080-exec-3] INFO  OrderPaySuccessListener - 收到支付成功消息，可以做接下来的事情，如；发货、充值、开户员、返利 {"orderId":"7717622264829568","status":"PAY_SUCCESS"}
+25-05-10.20:48:21.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:24.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:27.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:33.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:36.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:39.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:42.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:48.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:51.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:48:55.898 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.20:48:55.900 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.20:48:57.530 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 20932 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.20:48:57.532 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.20:48:58.015 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.20:48:58.020 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.20:48:58.020 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.20:48:58.020 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.20:48:58.092 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.20:48:58.092 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 542 ms
+25-05-10.20:48:58.816 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.20:48:58.823 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.20:48:58.830 [main            ] INFO  Application            - Started Application in 1.528 seconds (JVM running for 2.08)
+25-05-10.20:49:00.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:00.021 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.20:49:00.167 [scheduling-1    ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.20:49:03.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:06.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:09.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:12.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:15.593 [http-nio-8080-exec-1] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.20:49:15.593 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.20:49:15.594 [http-nio-8080-exec-1] INFO  DispatcherServlet      - Completed initialization in 1 ms
+25-05-10.20:49:16.460 [http-nio-8080-exec-1] INFO  LoginController        - 生成微信扫码登录 ticket:gQGv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2E5WE5BYmplVkoxdGVvNmhFMVAAAgROSx9oAwQAjScA
+25-05-10.20:49:18.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:19.565 [http-nio-8080-exec-2] INFO  LoginController        - 扫码检测登录结果 ticket:gQGv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2E5WE5BYmplVkoxdGVvNmhFMVAAAgROSx9oAwQAjScA openidToken:null
+25-05-10.20:49:21.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:22.540 [http-nio-8080-exec-4] INFO  LoginController        - 扫码检测登录结果 ticket:gQGv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2E5WE5BYmplVkoxdGVvNmhFMVAAAgROSx9oAwQAjScA openidToken:null
+25-05-10.20:49:23.242 [http-nio-8080-exec-10] INFO  WeixinPortalController - 接收微信公众号信息请求oC9O57RFB4BQaXgMP7nmQXejGB5M开始 <xml><ToUserName><![CDATA[gh_2b28b39f45f4]]></ToUserName>
+<FromUserName><![CDATA[oC9O57RFB4BQaXgMP7nmQXejGB5M]]></FromUserName>
+<CreateTime>1746881365</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[SCAN]]></Event>
+<EventKey><![CDATA[100601]]></EventKey>
+<Ticket><![CDATA[gQGv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2E5WE5BYmplVkoxdGVvNmhFMVAAAgROSx9oAwQAjScA]]></Ticket>
+</xml>
+25-05-10.20:49:24.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:24.296 [http-nio-8080-exec-6] INFO  WeixinPortalController - 接收微信公众号信息请求oC9O57RFB4BQaXgMP7nmQXejGB5M开始 <xml><ToUserName><![CDATA[gh_2b28b39f45f4]]></ToUserName>
+<FromUserName><![CDATA[oC9O57RFB4BQaXgMP7nmQXejGB5M]]></FromUserName>
+<CreateTime>1746881366</CreateTime>
+<MsgType><![CDATA[event]]></MsgType>
+<Event><![CDATA[TEMPLATESENDJOBFINISH]]></Event>
+<MsgID>3981050397837459461</MsgID>
+<Status><![CDATA[success]]></Status>
+</xml>
+25-05-10.20:49:25.593 [http-nio-8080-exec-8] INFO  LoginController        - 扫码检测登录结果 ticket:gQGv7zwAAAAAAAAAAS5odHRwOi8vd2VpeGluLnFxLmNvbS9xLzAyd2E5WE5BYmplVkoxdGVvNmhFMVAAAgROSx9oAwQAjScA openidToken:oC9O57RFB4BQaXgMP7nmQXejGB5M
+25-05-10.20:49:27.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:27.615 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:oC9O57RFB4BQaXgMP7nmQXejGB5M productId:oC9O57RFB4BQaXgMP7nmQXejGB5M
+25-05-10.20:49:27.681 [http-nio-8080-exec-9] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:oC9O57RFB4BQaXgMP7nmQXejGB5M productId:100010090091 orderId:2386410957032942
+25-05-10.20:49:30.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:33.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:36.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:39.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:42.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，消息接收 TRADE_SUCCESS
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，交易名称: 测试商品
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，交易状态: TRADE_SUCCESS
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，支付宝交易凭证号: 2025051022001436290506198591
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，商户订单号: 2386410957032942
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，交易金额: 1.68
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，买家在支付宝唯一id: 2088722067136291
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，买家付款时间: 2025-05-10 20:49:44
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，买家付款金额: 1.68
+25-05-10.20:49:44.524 [http-nio-8080-exec-1] INFO  AliPayController       - 支付回调，支付回调，更新订单 2386410957032942
+25-05-10.20:49:44.540 [http-nio-8080-exec-1] INFO  OrderPaySuccessListener - 收到支付成功消息，可以做接下来的事情，如；发货、充值、开户员、返利 {"orderId":"2386410957032942","status":"PAY_SUCCESS"}
+25-05-10.20:49:45.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:48.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:51.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:54.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:49:57.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:00.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:00.003 [scheduling-1    ] INFO  TimeoutCloseOrderJob   - 任务；超时30分钟订单关闭
+25-05-10.20:50:00.004 [scheduling-1    ] INFO  TimeoutCloseOrderJob   - 定时任务，超时30分钟订单关闭，暂无超时未支付订单 orderIds is null
+25-05-10.20:50:03.000 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:06.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:09.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:12.002 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:15.001 [scheduling-1    ] INFO  NoPayNotifyOrderJob    - 任务；检测未接收到或未正确处理的支付回调通知
+25-05-10.20:50:17.256 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.20:50:17.258 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
