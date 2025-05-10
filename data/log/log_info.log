@@ -287,3 +287,34 @@ version             : 1.4.10
 25-05-10.16:25:52.294 [http-nio-8080-exec-7] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:7327583494244209
 25-05-10.16:27:57.222 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
 25-05-10.16:27:57.227 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+25-05-10.19:44:33.823 [main            ] INFO  Application            - Starting Application using Java 1.8.0_202 on LAPTOP-MEFU2P1B with PID 25540 (D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq\s-pay-mall-web\target\classes started by 咳咳 in D:\Code\Develop\Java\xfg\s-pay-mall-mvc-dcq)
+25-05-10.19:44:33.824 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-05-10.19:44:34.241 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 8080 (http)
+25-05-10.19:44:34.244 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-8080"]
+25-05-10.19:44:34.245 [main            ] INFO  StandardService        - Starting service [Tomcat]
+25-05-10.19:44:34.245 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.75]
+25-05-10.19:44:34.301 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+25-05-10.19:44:34.301 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 460 ms
+25-05-10.19:44:34.854 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-8080"]
+25-05-10.19:44:34.860 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 8080 (http) with context path ''
+25-05-10.19:44:34.865 [main            ] INFO  Application            - Started Application in 1.235 seconds (JVM running for 1.713)
+25-05-10.19:47:32.418 [http-nio-8080-exec-2] INFO  [/]                    - Initializing Spring DispatcherServlet 'dispatcherServlet'
+25-05-10.19:47:32.419 [http-nio-8080-exec-2] INFO  DispatcherServlet      - Initializing Servlet 'dispatcherServlet'
+25-05-10.19:47:32.419 [http-nio-8080-exec-2] INFO  DispatcherServlet      - Completed initialization in 0 ms
+25-05-10.19:47:32.466 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单开始 userId:10001 productId:10001
+25-05-10.19:47:32.475 [http-nio-8080-exec-2] INFO  HikariDataSource       - HikariPool-1 - Starting...
+25-05-10.19:47:32.594 [http-nio-8080-exec-2] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+25-05-10.19:47:32.694 [http-nio-8080-exec-2] INFO  AliPayController       - 商品下单，根据商品ID创建支付单完成 userId:10001 productId:100001 orderId:1744010827910238
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，消息接收 TRADE_SUCCESS
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，交易名称: 测试商品
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，交易状态: TRADE_SUCCESS
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，支付宝交易凭证号: 2025051022001436290506195391
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，商户订单号: 1744010827910238
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，交易金额: 1.68
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，买家在支付宝唯一id: 2088722067136291
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，买家付款时间: 2025-05-10 19:50:23
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，买家付款金额: 1.68
+25-05-10.19:50:23.340 [http-nio-8080-exec-5] INFO  AliPayController       - 支付回调，支付回调，更新订单 1744010827910238
+25-05-10.19:50:23.366 [http-nio-8080-exec-5] INFO  OrderPaySuccessListener - 收到支付成功消息，可以做接下来的事情，如；发货、充值、开户员、返利 {"orderId":"1744010827910238","status":"PAY_SUCCESS"}
+25-05-10.20:37:39.021 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+25-05-10.20:37:39.031 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

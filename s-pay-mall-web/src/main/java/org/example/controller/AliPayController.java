@@ -31,14 +31,14 @@ public class AliPayController {
 
     /**
      * http://localhost:8080/api/v1/alipay/create_pay_order
-     *
+     * <p>
      * {
-     *     "userId": "10001",
-     *     "productId": "100001"
+     * "userId": "10001",
+     * "productId": "100001"
      * }
      */
-    @RequestMapping(value = "create_pay_order", method =  RequestMethod.POST)
-    public Response<String> createPayOrder(@RequestBody CreatePayRequestDTO createPayRequestDTO){
+    @RequestMapping(value = "create_pay_order", method = RequestMethod.POST)
+    public Response<String> createPayOrder(@RequestBody CreatePayRequestDTO createPayRequestDTO) {
         try {
             log.info("商品下单，根据商品ID创建支付单开始 userId:{} productId:{}", createPayRequestDTO.getUserId(), createPayRequestDTO.getUserId());
             String userId = createPayRequestDTO.getUserId();
@@ -103,6 +103,8 @@ public class AliPayController {
         log.info("支付回调，买家付款时间: {}", params.get("gmt_payment"));
         log.info("支付回调，买家付款金额: {}", params.get("buyer_pay_amount"));
         log.info("支付回调，支付回调，更新订单 {}", tradeNo);
+
+        orderService.changeOrderPaySuccess(tradeNo);
 
         return "success";
     }
